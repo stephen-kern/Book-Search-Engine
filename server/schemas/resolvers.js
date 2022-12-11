@@ -60,7 +60,7 @@ const resolvers = {
         );
         return updatedBookList;
       }
-      throw new AuthenticationError("You need to be logged in to remove a book!");
+      throw new AuthenticationError("You need to be logged in!");
     },
   },
 };
